@@ -5,10 +5,10 @@ module.exports = {
     extend: {},
   },
   plugins: [
-    require('daisyui'),
     require('@tailwindcss/typography'),
     require('@tailwindcss/forms'),
     require('@tailwindcss/line-clamp'),
     require('@tailwindcss/aspect-ratio'),
+    require('daisyui'),
   ],
 }

@@ -1,2 +1,3 @@
-# tailwindcss-sketchbook
-My various sketches while mastering Tailwind CSS
+# My Tailwind CSS Sketchbook
+
+My various sketches while learning Tailwind CSS

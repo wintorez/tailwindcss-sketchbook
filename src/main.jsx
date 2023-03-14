@@ -8,9 +8,9 @@ import './index.css'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
-      <div className="container mx-auto pt-5">
+      <div className="container mx-auto p-5">
         <ul className="list-disc list-inside">
-          {['typography', 'forms', 'line-clamp', 'aspect-ratio'].map((each) => (
+          {['typography', 'forms'].map((each) => (
             <li key={each} className="my-1">
               <Link to={`/${each}`} className="text-blue-500">
                 {_.capitalize(each)}
@@ -23,8 +23,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path="/" element={<Navigate to="/typography" replace />} />
           <Route path="/typography" element={<Typography />} />
           <Route path="/forms" element={<Forms />} />
-          <Route path="/line-clamp" element={<p>TODO</p>} />
-          <Route path="/aspect-ratio" element={<p>TODO</p>} />
         </Routes>
       </div>
     </BrowserRouter>
